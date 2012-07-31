@@ -1,0 +1,31 @@
+{
+    "name":"chaining",
+    "version":"0.1.0",
+    "description":"文件同步",
+    "keywords":["支付宝", "文件同步", "云端编程"],
+    "homepage":"http://alipay.im",
+    "bugs":{
+        "url":"http://github.com/sliuqin/chaining/issues",
+        "email":"sliuqin@gmail.com"
+    },
+    "author":{
+        "name":"sliuqin",
+        "email":"sliuqin@gmail.com",
+        "url":"http://t.qq.com/sliuqin/"
+    },
+    "main":"",
+    "bin":{
+        "chaining":"./cli.js"
+    },
+    "repository":{
+        "type":"git",
+        "url":"http://github.com/sliuqin/chaining.git"
+    },
+    "dependencies":{
+        "forEachAsync":">=2.1.1"
+    },
+    "engines":{
+        "node":">=0.6.11"
+    },
+    "os":[ "!win32" ]
+}
